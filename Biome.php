@@ -4,7 +4,7 @@
  * @name Biome
  * @main securti\biome\Biome
  * @author ["Securti"]
- * @version 0.1
+ * @version 0.2
  * @api 3.14.0
  * @description License : LGPL 3.0
  */
@@ -62,7 +62,7 @@ class Biome extends PluginBase implements Listener{
         if($biome !== null){
         
           $x_list = [$pos1[0], $pos2[0]];
-          $z_list = [$pos1[1], $pos2[1]];
+          $z_list = [$pos1[2], $pos2[2]];
           
          for($x = min($x_list); $x <= max($x_list); $x++){
          
