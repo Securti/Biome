@@ -2,14 +2,14 @@
 
 /**
  * @name Biome
- * @main securti\biome\Biome
- * @author ["Securti"]
+ * @main tjwls012\biome\Biome
+ * @author ["tjwls012"]
  * @version 0.2
  * @api 3.14.0
  * @description License : LGPL 3.0
  */
  
-namespace securti\biome;
+namespace tjwls012\biome;
  
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
